@@ -3,15 +3,15 @@ As informações sobre o ciclo de evolução profissional dos colaboradores est�
 
 Trello: https://trello.com/b/j2ceyFQg/projeto-journey
 
-# 🚀 CI&T Talent Journey - Perfil de Desenvolvimento
+# 🚀 Talent Journey - Perfil de Desenvolvimento
 
-> Projeto de implementação do Dashboard de Desenvolvimento Humano e Acompanhamento de Carreira para colaboradores da CI&T.
+> Projeto de implementação do Dashboard de Desenvolvimento Humano e Acompanhamento de Carreira para colaboradores da empresa.
 
 ---
 
 ## 📋 História de Usuário (User Story)
 
-**Como** colaborador da CI&T,  
+**Como** colaborador da empresa,  
 **Quero** visualizar meu perfil de desenvolvimento com o ciclo anual Journey, minhas etapas de check-in e habilidades mapeadas,  
 **Para que** eu possa acompanhar meu progresso, receber feedbacks e gerenciar meu PDI de forma centralizada.
 
@@ -27,7 +27,7 @@ Para que a interface seja considerada concluída, ela deve atender rigorosamente
 *   **Timeline do Ciclo:** Renderizar o *Annual Journey Cycle* contendo 4 etapas numeradas e suas respectivas descrições.
 *   **Matriz de Competências:** Exibir seção *Skills* em formato expansível (Acordeão).
 *   **Navegação por Abas:** Implementar abas para `My Journey` (com badge de notificação visível) e `Pending Assessments`.
-*   **Fidelidade Visual:** Layout totalmente responsivo e fiel à identidade visual (UI/UX) da CI&T.
+*   **Fidelidade Visual:** Layout totalmente responsivo e fiel à identidade visual (UI/UX) da empresa.
 
 ---
 
@@ -52,8 +52,8 @@ O projeto foi dividido em 4 ciclos de entrega (Sprints) para garantir organizaç
 *   [ ] Estruturar o quadro Kanban (Trello/GitHub Projects) com o Backlog inicial.
 
 ### 📐 Sprint 1 — Base & Layout Estrutural
-*   [ ] Configurar variáveis globais de tema (Tokens de Cores CI&T: azul escuro, roxo, cinza claro).
-*   [ ] Implementar o componente de **Header** (Logo CI&T, avatar do usuário, seletor de idioma e menu de navegação).
+*   [ ] Configurar variáveis globais de tema (Tokens de Cores da empresa: azul escuro, roxo, cinza claro).
+*   [ ] Implementar o componente de **Header** (Logo da empresa, avatar do usuário, seletor de idioma e menu de navegação).
 *   [ ] Implementar a navegação por abas (`My Journey` / `Pending Assessments`).
 
 ### 👤 Sprint 2 — Componentes Principais (Core UI)
@@ -82,10 +82,10 @@ Abaixo estão as tarefas mapeadas que devem ser distribuídas nas colunas `Backl
 | **01** | Design/UX | Levantamento de requisitos visuais (cores, fontes, espaçamentos) |
 | **02** | Setup | Criar estrutura base do projeto (HTML/CSS/React) |
 | **03** | Arquitetura | Mapear componentes reutilizáveis da tela |
-| **04** | Design/UX | Definir paleta de cores (azul escuro CI&T, roxo, cinza claro) |
+| **04** | Design/UX | Definir paleta de cores (azul escuro, roxo, cinza claro) |
 | **05** | Design/UX | Escolher tipografia e tamanhos de fonte |
 | **06** | Design/UX | Criar protótipo/wireframe dos componentes |
-| **07** | Frontend | Implementar Header (logo CI&T, avatar, idioma, menu) |
+| **07** | Frontend | Implementar Header (logo, avatar, idioma, menu) |
 | **08** | Frontend | Implementar abas: My Journey e Pending Assessments |
 | **09** | Frontend | Criar card de perfil do colaborador |
 | **10** | Frontend | Criar componente Annual Journey Cycle (timeline 4 etapas) |
