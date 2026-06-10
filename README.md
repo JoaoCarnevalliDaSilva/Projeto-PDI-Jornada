@@ -99,6 +99,7 @@ Abaixo estão as tarefas mapeadas que devem ser distribuídas nas colunas `Backl
 ```bash
 # 1. Clone o repositório
 git clone [https://github.com/JoaoCarnevalliDaSilva/Projeto-PDI-Jornada]
+git pull
 
 # 2. Acesse a pasta do projeto
 cd Projeto-PDI-Jornada
