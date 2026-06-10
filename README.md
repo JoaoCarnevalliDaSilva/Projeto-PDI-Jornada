@@ -98,13 +98,15 @@ Abaixo estão as tarefas mapeadas que devem ser distribuídas nas colunas `Backl
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/seu-usuario/cit-talent-journey.git](https://github.com/seu-usuario/cit-talent-journey.git)
+git clone [https://github.com/JoaoCarnevalliDaSilva/Projeto-PDI-Jornada]
 
 # 2. Acesse a pasta do projeto
-cd cit-talent-journey
+cd Projeto-PDI-Jornada
 
-# 3. Instale as dependências
-npm install
+git init
 
-# 4. Inicie o servidor de desenvolvimento
-npm run dev
+git add .
+
+git commit -m "texto para ficar no commit"
+
+git push origin -u main
