@@ -94,24 +94,41 @@ Abaixo estão as tarefas mapeadas que devem ser distribuídas nas colunas `Backl
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## 🚀 Manual de Execução Local
 
 ```bash
-# 1. Clone o repositório
+
+########## Clonagem do repositório ##########
 git clone [https://github.com/JoaoCarnevalliDaSilva/Projeto-PDI-Jornada]
 
-# 2. Acesse a pasta do projeto
 
+########## Atualização da versão da pasta do projeto ##########
 git pull
 
-# 3. Para salvar as alterações
-cd Projeto-PDI-Jornada
 
+########## Rodar apenas uma vez por projeto ##########
 git init
 
-git add .
 
-git commit -m "texto para ficar no commit"
+########## Verificar qual arquivo teve alteração ########
+git status
 
-git push origin -u main
+
+########## Adicionar arquivos no commit ##########
+git add . # Para todos os arquivos
+git add # nome do arquivo #
+
+git add style.css
+# Exemplo para caso queira adicionar apenas um arquivo
+
+
+########## Commit das edições ##########
+git commit -m "texto para ficar no commit" 
+
+
+########## Publicar no Github ##########
+git push origin -u main # publica na main / e na primeira vez
+git push # caso tenha mais publicações
+
+
 
