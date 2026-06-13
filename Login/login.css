@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* ==========================================================================
    1. RESET GLOBAL SEGURO (Limpa margens e paddings sem quebrar o layout)
    ========================================================================== */
@@ -55,15 +55,4 @@ body {
 
 .botaoregister {
     color: rgb(81,0,45);
-    background-color: rgb(255, 255, 255);
-=======
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
->>>>>>> 6f2665e3e813e7919f4bb92f4a106e79eeeb64d7
-}
+    background-color: rgb(255, 255, 255);}
