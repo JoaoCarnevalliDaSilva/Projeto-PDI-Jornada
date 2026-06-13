@@ -1,11 +1,58 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
+/* ==========================================================================
+   1. RESET GLOBAL SEGURO (Limpa margens e paddings sem quebrar o layout)
+   ========================================================================== */
+*, *::before, *::after {
+    margin:0;
     padding: 0;
-    min-height: 100vh;
+    box-sizing: border-box;
+}
+/*==========================================================================
+   2. CONFIGURAÇÃO DA RAIZ (Dá tamanho total à página sem bugar as tags internas)
+   ========================================================================== */
+html, body {
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+/* ==========================================================================
+   3. CORREÇÕES DE COMPORTAMENTO PADRÃO (Evita surpresas)
+   ========================================================================== */
+/* Evita que imagens fiquem maiores que a tela ou com espaços fantasmas embaixo */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
 }
 
+/* Garante que botões e inputs herdem a fonte que você definiu no body */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Remove aquela linha azul feia que aparece ao clicar em links (opcional, mas estético) */
+a {
+    text-decoration: none;
+    color: inherit;
+}   
+
+/*=====================================================================*/
+/* COMEÇAR A PARTIR DESSE PONTO */
+
 body {
-    height: 0;
-    width: 0;
+    color: white;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: rgb(81, 0, 45);
+}
+
+.conteudo, h1 {
+    font-weight: 200;
+    letter-spacing: 0.05em;
+}
+
+.botaologin {
+    background-color: rgb(255,91,79);
+}
+
+.botaoregister {
+    color: rgb(81,0,45);
+    background-color: rgb(255, 255, 255);
 }
