@@ -1,5 +1,5 @@
 # Projeto-PDI-Jornada
-As informações sobre o ciclo de evolução profissional dos colaboradores estão dispersas ou carecem de uma visão unificada. Esta história de usuário visa centralizar os pilares do desenvolvimento do colaborador da CI&amp;T (Ciclo Journey, Check-ins, Mapeamento de Habilidades e PDI) em uma única tela/dashboard
+As informações sobre o ciclo de evolução profissional dos colaboradores estão dispersas ou carecem de uma visão unificada. Esta história de usuário visa centralizar os pilares do desenvolvimento do colaborador (Ciclo Journey, Check-ins, Mapeamento de Habilidades e PDI) em uma única tela/dashboard
 
 Jira: https://projetojornada.atlassian.net/jira/software/projects/PJ/list?jql=project%20%3D%20PJ%20ORDER%20BY%20cf%5B10019%5D%20ASC
 
