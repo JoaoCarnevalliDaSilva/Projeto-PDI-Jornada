@@ -59,6 +59,20 @@ body {
     text-align: center;
 }
 
+.forms form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.bot {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
 .conteudo, h1 {
     font-weight: 200;
     letter-spacing: 0.05em;
@@ -67,6 +81,7 @@ body {
 
 .botaologin {
     background-color: rgb(255,91,79);
+    padding: 13px;
 }
 
 .botaoregister {
@@ -91,5 +106,17 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: right;
     display: block;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .imagem {
+        height: 30vh;
+        order: -1;
+    }
 }
