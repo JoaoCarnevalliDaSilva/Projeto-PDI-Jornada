@@ -50,6 +50,19 @@ body {
     overflow: hidden;
 }
 
+.boasvindas {
+    margin-bottom: 20px;
+}
+
+.forms {
+    font-weight: bold;
+}
+
+.forms :hover {
+    color: rgb(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
 .conteudo {
     flex: 1;
     display: flex;
@@ -59,15 +72,33 @@ body {
     text-align: center;
 }
 
-.forms form {
+.input-group {
+    margin-bottom: 15px;
     width: 100%;
+}
+
+.forms input {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 8px;
     max-width: 300px;
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
 
+.forms input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .bot {
+    width: 100%;
+    max-width: 300px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -79,14 +110,31 @@ body {
     margin-bottom: 1rem;
 }
 
+.bot button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 .botaologin {
     background-color: rgb(255,91,79);
-    padding: 13px;
+}
+
+.botaologin:hover {
+    filter: brightness(0.9);
 }
 
 .botaoregister {
     color: rgb(81,0,45);
     background-color: rgb(255, 255, 255);
+}
+
+.botaoregister:hover {
+    filter: brightness(0.9);
 }
 
 .container-imagem {
