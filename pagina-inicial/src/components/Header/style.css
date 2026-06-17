@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+.avaliacoes {
+    margin-left: auto;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.avaliacoes, .logo {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.avaliacoes:hover {
+    background-color: thistle;
+    transition: 0.9s;
+}

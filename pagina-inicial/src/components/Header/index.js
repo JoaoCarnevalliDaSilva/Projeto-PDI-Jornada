@@ -1,15 +1,22 @@
 import { Link } from 'react-router-dom'
 
+import './style.css'
+
 function Header() {
     return (
-        <header>
-            <h2>
-                Header do Site
-            </h2>
+        <header className='cabecalho'>
 
-            <div className='menu'>
-                <Link to={"/Avaliacoes"}>Avaliacoes</Link>
+            <Link className='logo' to={"/"}>Jornada</Link>
+            <Link className='avaliacoes' to={"/Avaliacoes"}>Avaliacoes</Link>
+
+            <div className='lista-menu'>
+                <button>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
+
 
         </header>
     )
